@@ -7,12 +7,13 @@ const Navbar = () => {
                 Little Lemon
             </header>
             <ul>
-<li><Link to="/">Home</Link></li>
-<li><Link to="/">About us</Link></li>
-<li><Link to="/">Book a table</Link></li>
-<li><Link to="/">Order online</Link></li>
-<li><Link to="/">Login</Link></li>
-<li><Link to="/">Sign up</Link></li>
+                
+<li><Link to="/" className="nav-link">Home</Link></li>
+<li><Link to="/" className="nav-link">About us</Link></li>
+<li><Link to="/booking-page" className="nav-link">Book a table</Link></li>
+<li><Link to="/" className="nav-link">Order online</Link></li>
+<li><Link to="/" className="nav-link">Login</Link></li>
+<li><Link to="/" className="nav-link">Sign up</Link></li>
             </ul>
         </nav>
      );

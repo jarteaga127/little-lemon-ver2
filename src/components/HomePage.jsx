@@ -1,6 +1,10 @@
+import HeroSec from "./HeroSec";
+
 const HomePage = () => {
     return ( 
-        <main></main>
+        <main>
+        <HeroSec/>
+        </main>
      );
 }
  
