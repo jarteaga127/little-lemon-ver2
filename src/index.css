@@ -8,6 +8,7 @@
 
 :root {
   --main-color: #F4CE14;
+  --main-color-2: #cbad17;
   --secondary-color: #495E57;
   --orange: #EE9972;
   --main-font: "Markazi Text";
@@ -18,9 +19,17 @@ header {
   font-family: var(--main-font);
 }
 
-p, li {
+h1, h2, h3 {
+  font-family: var(--main-font);
+}
+
+p, li, button, span {
   font-family: var(--second-font);
   font-size: 20px;
+}
+
+button {
+  cursor: pointer;
 }
 
 nav {
@@ -43,11 +52,76 @@ nav ul li {
   padding: .5rem 1rem;
 }
 
+section {
+  padding: 4rem 3rem 5rem;
+}
+
 .nav-link {
   color: #000;
   text-decoration: none;
 }
 
 .nav-link:hover {
+text-decoration: underline;
+}
+
+.hero-sec {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: var(--secondary-color);
+  padding: 3rem 6rem;
+}
+
+.hero-text h1 {
+font-size: 64px;
+color: var(--main-color);
+}
+
+.hero-text h2 {
+  font-size: 36px;
+  color: #fff;
+}
+
+.hero-text p {
+  color: #fff;
+}
+
+.main-button {
+  background-color: var(--main-color);
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  margin-top: 1rem;
+}
+
+.specials-card {
+  width: 327px;
+  background-color: #F5F5F5;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.specials-text {
+  padding: .5rem 1rem;
+  margin-bottom: 3rem;
+}
+
+.dish-name-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.dish-name {
+  font-family: var(--main-font);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.dish-price {
+  font-size: 24px;
   color: var(--orange);
+}
+
+.delivery-price {
+  font-weight: bold;
 }
