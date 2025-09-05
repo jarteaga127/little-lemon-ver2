@@ -1,6 +1,9 @@
 const Reviews = () => {
     return ( 
-        <section></section>
+        <section className="reviews">
+            <h2>What our customers are saying</h2>
+            <div className="reviews-grid"></div>
+        </section>
      );
 }
  

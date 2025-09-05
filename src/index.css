@@ -40,7 +40,6 @@ nav {
   grid-template-columns: auto auto;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid;
 }
 
 nav ul {
@@ -53,7 +52,12 @@ nav ul li {
 }
 
 section {
-  padding: 4rem 3rem 5rem;
+  padding: 1rem 2rem 3rem;
+}
+
+section h2 {
+  font-size: 36px;
+  margin-bottom: 1rem;
 }
 
 .nav-link {
@@ -70,6 +74,21 @@ text-decoration: underline;
   grid-template-columns: 50% 50%;
   background-color: var(--secondary-color);
   padding: 3rem 6rem;
+}
+
+.hero-img-cont {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-img-cont img {
+  width: 562px;
+  border-radius: 16px;
+
+}
+
+.hero-text {
+  margin-left: 1rem;
 }
 
 .hero-text h1 {
@@ -94,15 +113,31 @@ color: var(--main-color);
   margin-top: 1rem;
 }
 
+.main-button:hover {
+  background-color: var(--main-color-2);
+}
+
+.specials-grid, .reviews-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1rem;
+  justify-content: center;
+}
+
 .specials-card {
   width: 327px;
   background-color: #F5F5F5;
   border-radius: 1rem 1rem 0 0;
 }
 
+.specials-img img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
 .specials-text {
   padding: .5rem 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .dish-name-price {
@@ -122,6 +157,24 @@ color: var(--main-color);
   color: var(--orange);
 }
 
+.dish-descript {
+  margin-bottom: .5rem;
+}
+
 .delivery-price {
   font-weight: bold;
+}
+
+.reviews {
+  background-color: var(--secondary-color);
+}
+
+.reviews h2 {
+  color: #fff;
+}
+
+.reviews-card {
+  width: 327px;
+  background-color: #fff;
+  border-radius: 1rem 1rem 0 0;
 }

@@ -1,7 +1,10 @@
+//import HeroImg from "../assets/pictures/restauranfood-001";
+
 const HeroSec = () => {
     return ( 
         <section className="hero-sec">
-            <img src="" alt="" />
+            <div className="hero-img-cont"><img src="src/assets/pictures/restauranfood-001.jpg" alt="A chef is holding bruschetta." /></div>
+            
             <div className="hero-text">
                 <h1>Little Lemon</h1>
                 <h2>Tokyo</h2>

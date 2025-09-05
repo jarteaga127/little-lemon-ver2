@@ -1,7 +1,9 @@
 const SpecialsCard = () => {
     return ( 
         <div className="specials-card">
-            <div className="specials-img"></div>
+            <div className="specials-img">
+                <img src="src/assets/pictures/greek salad.jpg" alt="a greek salad" />
+            </div>
             <div className="specials-text">
                 <div className="dish-name-price">
                     <span className="dish-name">Dish 1</span>
