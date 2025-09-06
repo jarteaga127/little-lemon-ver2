@@ -173,8 +173,34 @@ color: var(--main-color);
   color: #fff;
 }
 
-.reviews-card {
+.review-card {
   width: 327px;
   background-color: #fff;
   border-radius: 1rem 1rem 0 0;
+  padding: .5rem 1rem 2rem;
+}
+
+.rating-bar span {
+font-size: 32px;
+color: #d9d9d9;
+cursor: pointer
+}
+
+.rating-bar span:hover {
+  color: var(--orange)
+}
+
+.user-row {
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar img {
+  width: 64px;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-weight: 999;
+  margin-left: .75rem;
 }
